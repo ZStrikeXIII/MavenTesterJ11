@@ -2,23 +2,29 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
 
-    <groupId>eagle.fgcu.edu</groupId>
-    <artifactId>MavenTester</artifactId>
-    <version>1.0-Initial</version>
+  <groupId>eagle.fgcu.edu</groupId>
+  <artifactId>MavenTester</artifactId>
+  <version>1.0-Initial</version>
 
-    <properties>
-        <maven.compiler.release>11</maven.compiler.release>
-    </properties>
+  <properties>
+    <maven.compiler.release>11</maven.compiler.release>
+  </properties>
 
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/com.opencsv/opencsv -->
-        <dependency>
-            <groupId>com.opencsv</groupId>
-            <artifactId>opencsv</artifactId>
-            <version>4.0</version>
-        </dependency>
-    </dependencies>
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/com.opencsv/opencsv -->
+    <dependency>
+      <groupId>com.opencsv</groupId>
+      <artifactId>opencsv</artifactId>
+      <version>4.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>2.8.5</version>
+    </dependency>
+  </dependencies>
 
 </project>
